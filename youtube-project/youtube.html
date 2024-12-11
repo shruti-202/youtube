@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,12 +18,60 @@
   </head>
   <body>
     <div class="header">
-      <div class="left-section">Left Section</div>
-      <div class="middle-section">
-        <input class="youtube-search" type="text" placeholder="Search" />
+      <div class="left-section">
+        <img
+          class="hamburger-menu"
+          src="assets/icons/hamburger-menu.svg"
+          alt="icon"
+        />
+        <img
+          class="youtube-logo"
+          src="assets/icons/youtube-logo.svg"
+          alt="logo"
+        />
       </div>
-      <div class="right-section">Right Section</div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="assets/icons/search.svg" alt="search" />
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="assets/icons/voice-search-icon.svg"
+            alt="voice-search"
+          />
+        </button>
+      </div>
+      <div class="right-section">
+        <img
+          class="upload-icon"
+          src="assets/icons/upload.svg"
+          alt="uploadIcon"
+        />
+        <img
+          class="app-icon"
+          src="assets/icons/youtube-apps.svg"
+          alt="appsIcon"
+        />
+        <div class="notification-icon-container">
+          <img
+            class="notification-icon"
+            src="assets/icons/notifications.svg"
+            alt="notificationsIcon"
+          />
+          <div class="notification-count">3</div>
+        </div>
+
+        <img
+          class="channel-icon"
+          src="assets/channel/my-channel.jpeg"
+          alt="channelIcon"
+        />
+      </div>
     </div>
+
+    <div class="sidebar">sidebar</div>
 
     <div class="video-preview-grid">
       <div class="video-preview">
@@ -32,6 +81,7 @@
             src="assets/thumbnail/thumbnail-1.webp"
             alt="youtube"
           />
+          <div class="video-time">14:20</div>
         </div>
         <div class="video-grid">
           <div class="video-logo">
@@ -58,6 +108,7 @@
             src="assets/thumbnail/thumbnail-12.webp"
             alt="youtube"
           />
+          <div class="video-time">8:22</div>
         </div>
         <div class="video-grid">
           <div class="video-logo">
@@ -82,6 +133,7 @@
             src="assets/thumbnail/thumbnail-2.webp"
             alt="youtube"
           />
+          <div class="video-time">19:59</div>
         </div>
         <div class="video-grid">
           <div class="video-logo">
@@ -108,6 +160,7 @@
             src="assets/thumbnail/thumbnail-3.webp"
             alt="youtube"
           />
+          <div class="video-time">10:13</div>
         </div>
         <div class="video-grid">
           <div class="video-logo">
@@ -132,6 +185,7 @@
             src="assets/thumbnail/thumbnail-4.webp"
             alt="youtube"
           />
+          <div class="video-time">7:12</div>
         </div>
         <div class="video-grid">
           <div class="video-logo">
@@ -158,6 +212,7 @@
             src="assets/thumbnail/thumbnail-5.webp"
             alt="youtube"
           />
+          <div class="video-time">13:17</div>
         </div>
         <div class="video-grid">
           <div class="video-logo">
@@ -182,6 +237,7 @@
             src="assets/thumbnail/thumbnail-6.webp"
             alt="youtube"
           />
+          <div class="video-time">7:35</div>
         </div>
         <div class="video-grid">
           <div class="video-logo">
@@ -208,6 +264,7 @@
             src="assets/thumbnail/thumbnail-7.webp"
             alt="youtube"
           />
+          <div class="video-time">4:10</div>
         </div>
         <div class="video-grid">
           <div class="video-logo">
@@ -234,6 +291,7 @@
             src="assets/thumbnail/thumbnail-8.webp"
             alt="youtube"
           />
+          <div class="video-time">4:51</div>
         </div>
         <div class="video-grid">
           <div class="video-logo">
@@ -260,6 +318,7 @@
             src="assets/thumbnail/thumbnail-9.webp"
             alt="youtube"
           />
+          <div class="video-time">9:13</div>
         </div>
         <div class="video-grid">
           <div class="video-logo">
@@ -286,6 +345,7 @@
             src="assets/thumbnail/thumbnail-10.webp"
             alt="youtube"
           />
+          <div class="video-time">22:09</div>
         </div>
         <div class="video-grid">
           <div class="video-logo">
@@ -312,6 +372,7 @@
             src="assets/thumbnail/thumbnail-11.webp"
             alt="youtube"
           />
+          <div class="video-time">11:17</div>
         </div>
         <div class="video-grid">
           <div class="video-logo">
